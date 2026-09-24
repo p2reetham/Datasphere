@@ -1,0 +1,5 @@
+{
+  "name": "data-sphere-club-site",
+  "private": true,
+  "engines": { "node": ">=18" }
+}

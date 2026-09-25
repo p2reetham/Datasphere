@@ -41,12 +41,10 @@ reaches the browser, so it can't be read from the page source.
    | `GITHUB_REPO` | `datasphere-config` |
    | `GITHUB_PATH` | `config.json` |
    | `GITHUB_BRANCH` | `main` |
-   | `ADMIN_PASSWORD` | `preetham` |
 5. **Redeploy** (env var changes need a redeploy to take effect).
 
 Once redeployed: everyone who opens the live URL loads the shared
-`config.json` on page load. Clicking the gear icon anywhere now always asks
-for the same password (`preetham`, or whatever you set `ADMIN_PASSWORD` to).
+`config.json` on page load. Clicking the gear icon anywhere now always asks whatever you set `ADMIN_PASSWORD` to).
 A successful save commits the update straight to `config.json` on GitHub —
 so it's the same content and the same password on every device, no local
 per-browser state involved.
